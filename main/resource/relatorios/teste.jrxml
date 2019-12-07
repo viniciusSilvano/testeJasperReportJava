@@ -22,26 +22,14 @@
 			</staticText>
 		</band>
 	</title>
-	<pageHeader>
-		<band height="35" splitType="Stretch"/>
-	</pageHeader>
-	<columnHeader>
-		<band height="61" splitType="Stretch"/>
-	</columnHeader>
 	<detail>
-		<band height="125" splitType="Stretch">
+		<band height="125" splitType="Prevent">
 			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
 				<reportElement x="0" y="10" width="550" height="50" isPrintWhenDetailOverflows="true" uuid="450ce0e8-32a2-4bc9-9d77-1726c5afc1fe"/>
 				<textFieldExpression><![CDATA[$F{meuFieldTeste}]]></textFieldExpression>
 			</textField>
-			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
-				<reportElement x="0" y="70" width="550" height="50" isPrintWhenDetailOverflows="true" uuid="31bb2cc6-94dd-4a5b-bcfe-fc1dc2462cf9">
-					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="5b47873b-45f7-42a2-9bdf-ea4050326769"/>
-				</reportElement>
-				<textFieldExpression><![CDATA[$F{meuFieldTeste2}]]></textFieldExpression>
-			</textField>
 		</band>
-		<band height="50" splitType="Stretch">
+		<band height="50" splitType="Prevent">
 			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
 				<reportElement x="0" y="10" width="550" height="30" isPrintWhenDetailOverflows="true" uuid="d6757d51-92ed-426b-9739-9f69e2067f81">
 					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="320d1f3f-548d-44c6-a76f-b76686facf30"/>
@@ -50,13 +38,4 @@
 			</textField>
 		</band>
 	</detail>
-	<columnFooter>
-		<band height="45" splitType="Stretch"/>
-	</columnFooter>
-	<pageFooter>
-		<band height="54" splitType="Stretch"/>
-	</pageFooter>
-	<summary>
-		<band height="42" splitType="Stretch"/>
-	</summary>
 </jasperReport>

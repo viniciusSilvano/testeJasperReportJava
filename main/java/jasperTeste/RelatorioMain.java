@@ -84,7 +84,7 @@ public class RelatorioMain {
 				.setMeuFieldTeste3(textao)
 				.build());*/
 		dados.add(RelatorioDTOBuilder.getInstance()
-				//.setMeuFieldTeste2(textao2)
+				//.setMeuFieldTeste2(null)
 				.setMeuFieldTeste(textao)
 				.setMeuFieldTeste3(textao2)
 				.build());
